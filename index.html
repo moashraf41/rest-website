@@ -1,0 +1,1346 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food Website</title>
+    <!-- for icons  -->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="cutlery.png" type="image/png" />
+
+    <!-- bootstrap  -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- for swiper slider  -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/mixitup@3.3.1/dist/mixitup.min.css"
+    />
+    <!-- fancy box  -->
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css" />
+    <!-- custom css  -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- start of header  -->
+
+    <header class="pt-2 sticky-header">
+      <nav class="navbar navbar-expand-lg container">
+        <div class="container-fluid align-items-lg-end">
+          <a class="navbar-brand" href="#"><img src="logo.png" alt="" /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fa-solid fa-bars p-1" style="color: #ff8243"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto mb-2 mb-lg-0 links gap-2">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+            <form class="d-lg-flex gap-lg-3" role="search">
+              <div class="position-relative search">
+                <input
+                  class="form-control search-input styled-input"
+                  type="search"
+                  placeholder="Search Here..."
+                  aria-label="Search"
+                />
+                <i class="fas fa-search search-icon"></i>
+              </div>
+
+              <button
+                type="button"
+                class="btn position-relative capsule-button"
+              >
+                <i class="fa-regular fa-bell"></i>
+                <span
+                  class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-light"
+                >
+                  3
+                  <span class="visually-hidden">unread messages</span>
+                </span>
+              </button>
+              <button
+                type="button"
+                class="btn position-relative capsule-button"
+              >
+                <i class="fa-regular fa-circle-user"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- end of header  -->
+
+    <!-- start of main-section  -->
+    <section class="main-sec d-flex align-items-center">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <div>
+              <h1 class="main-h1">
+                Welcome to <br />
+                our <span>India</span> <br />
+                restaurant.
+              </h1>
+            </div>
+            <div class="main-p mt-4">
+              <p>
+                This is Lorem ipsum dolor sit amet, consectetur adipisicing
+                elit. Numquam vel tempore consectetur nesciunt? Nam eius tenetur
+                recusandae optio aperiam.
+              </p>
+            </div>
+            <div class="main-btn d-flex mt-4">
+              <button>check our menu</button>
+            </div>
+          </div>
+          <div class="col-lg-6 d-flex flex-column align-items-center">
+            <!-- SVG goes here -->
+            <svg
+              id="sw-js-blob-svg"
+              viewBox="0 0 100 100"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <defs>
+                <!-- Blob Shape for Clipping -->
+                <clipPath id="blob-clip">
+                  <path
+                    id="blob-path"
+                    d="M19.4,-34.5C25.4,-30.2,30.7,-25.5,35.3,-19.7C39.9,-13.9,43.8,-6.9,44.2,0.2C44.6,7.4,41.6,14.8,37.4,21.4C33.2,27.9,27.9,33.6,21.5,37.8C15.1,42.1,7.6,44.8,-0.2,45.2C-8,45.5,-15.9,43.5,-21.7,38.9C-27.5,34.3,-31.1,27.2,-33.6,20.3C-36,13.4,-37.2,6.7,-37.3,0C-37.4,-6.8,-36.3,-13.5,-33.4,-19.7C-30.5,-25.8,-25.9,-31.4,-20.1,-35.8C-14.2,-40.2,-7.1,-43.4,-0.2,-43.1C6.7,-42.7,13.4,-38.8,19.4,-34.5Z"
+                    transform="translate(50 50)"
+                  />
+                </clipPath>
+              </defs>
+
+              <!-- Image inside the Blob Shape -->
+              <image
+                href="images/main-b.jpg"
+                x="0"
+                y="0"
+                width="100"
+                height="100"
+                clip-path="url(#blob-clip)"
+              />
+
+              <!-- Blob Path with Gradient Stroke -->
+              <path
+                fill="none"
+                d="M19.4,-34.5C25.4,-30.2,30.7,-25.5,35.3,-19.7C39.9,-13.9,43.8,-6.9,44.2,0.2C44.6,7.4,41.6,14.8,37.4,21.4C33.2,27.9,27.9,33.6,21.5,37.8C15.1,42.1,7.6,44.8,-0.2,45.2C-8,45.5,-15.9,43.5,-21.7,38.9C-27.5,34.3,-31.1,27.2,-33.6,20.3C-36,13.4,-37.2,6.7,-37.3,0C-37.4,-6.8,-36.3,-13.5,-33.4,-19.7C-30.5,-25.8,-25.9,-31.4,-20.1,-35.8C-14.2,-40.2,-7.1,-43.4,-0.2,-43.1C6.7,-42.7,13.4,-38.8,19.4,-34.5Z"
+                width="100%"
+                height="100%"
+                transform="translate(50 50)"
+                stroke-width="1"
+                style="transition: 0.3s"
+                stroke="url(#sw-gradient)"
+              />
+
+              <style>
+                /* Keyframe animation to create wave effect */
+                @keyframes waveAnimation {
+                  0% {
+                    d: path(
+                      "M19.4,-34.5C25.4,-30.2,30.7,-25.5,35.3,-19.7C39.9,-13.9,43.8,-6.9,44.2,0.2C44.6,7.4,41.6,14.8,37.4,21.4C33.2,27.9,27.9,33.6,21.5,37.8C15.1,42.1,7.6,44.8,-0.2,45.2C-8,45.5,-15.9,43.5,-21.7,38.9C-27.5,34.3,-31.1,27.2,-33.6,20.3C-36,13.4,-37.2,6.7,-37.3,0C-37.4,-6.8,-36.3,-13.5,-33.4,-19.7C-30.5,-25.8,-25.9,-31.4,-20.1,-35.8C-14.2,-40.2,-7.1,-43.4,-0.2,-43.1C6.7,-42.7,13.4,-38.8,19.4,-34.5Z"
+                    );
+                  }
+                  50% {
+                    d: path(
+                      "M19.4,-30.5C25.4,-28.2,30.7,-24.5,35.3,-17.7C39.9,-11.9,43.8,-6.9,44.2,2.2C44.6,9.4,41.6,16.8,37.4,23.4C33.2,29.9,27.9,35.6,21.5,39.8C15.1,44.1,7.6,46.8,-0.2,47.2C-8,47.5,-15.9,45.5,-21.7,40.9C-27.5,36.3,-31.1,29.2,-33.6,22.3C-36,15.4,-37.2,8.7,-37.3,2C-37.4,-4.8,-36.3,-11.5,-33.4,-17.7C-30.5,-23.8,-25.9,-29.4,-20.1,-33.8C-14.2,-38.2,-7.1,-41.4,-0.2,-41.1C6.7,-40.7,13.4,-36.8,19.4,-30.5Z"
+                    );
+                  }
+                  100% {
+                    d: path(
+                      "M19.4,-34.5C25.4,-30.2,30.7,-25.5,35.3,-19.7C39.9,-13.9,43.8,-6.9,44.2,0.2C44.6,7.4,41.6,14.8,37.4,21.4C33.2,27.9,27.9,33.6,21.5,37.8C15.1,42.1,7.6,44.8,-0.2,45.2C-8,45.5,-15.9,43.5,-21.7,38.9C-27.5,34.3,-31.1,27.2,-33.6,20.3C-36,13.4,-37.2,6.7,-37.3,0C-37.4,-6.8,-36.3,-13.5,-33.4,-19.7C-30.5,-25.8,-25.9,-31.4,-20.1,-35.8C-14.2,-40.2,-7.1,-43.4,-0.2,-43.1C6.7,-42.7,13.4,-38.8,19.4,-34.5Z"
+                    );
+                  }
+                }
+
+                /* Apply the wave animation */
+                #blob-path {
+                  animation: waveAnimation 5s infinite ease-in-out;
+                }
+              </style>
+            </svg>
+            <!-- Text Content -->
+            <div class="ps-md-5 me-md-4 blob-text">
+              <span class="fs-5 fw-bold">Sushi</span>
+              <p>
+                This is Lorem ipsum dolor sit amet consectetur <br />
+                adipisicing elit.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of main-section  -->
+    <!-- start of brands  -->
+
+    <section class="brands d-flex align-items-center">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-12">
+            <div class="mb-5">
+              <h5>Trusted by 70+ companies</h5>
+            </div>
+          </div>
+        </div>
+
+        <!-- Brand logos row -->
+        <div class="row justify-content-between align-items-center text-center">
+          <!-- Brand 1 -->
+          <div class="col-6 col-sm-4 col-md-2 mb-3">
+            <img
+              src="images/brands/b1.png"
+              alt="Brand 1"
+              class="img-fluid brand-logo"
+            />
+          </div>
+          <!-- Brand 2 -->
+          <div class="col-6 col-sm-4 col-md-2 mb-3">
+            <img
+              src="images/brands/b2.png"
+              alt="Brand 2"
+              class="img-fluid brand-logo"
+            />
+          </div>
+          <!-- Brand 3 -->
+          <div class="col-6 col-sm-4 col-md-2 mb-3">
+            <img
+              src="images/brands/b3.png"
+              alt="Brand 3"
+              class="img-fluid brand-logo"
+            />
+          </div>
+          <!-- Brand 4 -->
+          <div class="col-6 col-sm-4 col-md-2">
+            <img
+              src="images/brands/b4.png"
+              alt="Brand 4"
+              class="img-fluid brand-logo"
+            />
+          </div>
+          <!-- Brand 5 -->
+          <div class="col-6 col-sm-4 col-md-2">
+            <img
+              src="images/brands/b5.png"
+              alt="Brand 5"
+              class="img-fluid brand-logo"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of brands  -->
+    <!-- start of about us  -->
+
+    <section class="about">
+      <div class="container d-flex align-items-center flex-column">
+        <div
+          class="sec-title mb-4 d-flex align-items-center justify-content-center capsule-title py-3"
+        >
+          <p>About Us</p>
+        </div>
+        <div
+          class="sec-h1 mb-4 d-flex align-items-center justify-content-center"
+        >
+          <h1>Discover our <span>restaurant story</span></h1>
+        </div>
+        <div
+          class="sec-img mb-4 d-flex align-items-center justify-content-center"
+        >
+          <img src="images/title-shape.svg" alt="" />
+        </div>
+        <div class="sec-text mb-4">
+          <p>
+            This is Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Saepe dolore at aspernatur eveniet temporibus placeat voluptatum
+            quaerat accusamus possimus cupiditate, quidem impedit sed libero id
+            perspiciatis esse earum repellat quam. Dolore modi temporibus quae
+            possimus accusantium, cum corrupti sed deserunt iusto at sapiente
+            nihil sint iste similique soluta dolor! Quod.
+          </p>
+        </div>
+        <div class="row">
+          <div class="col-lg-8 m-auto">
+            <div class="about-video mb-5">
+              <img src="images/about.jpg" alt="" class="img-fluid" />
+            </div>
+            <div
+              class="about-video-btn mb-5 d-flex gap-3 align-items-center justify-content-center"
+            >
+              <!-- Circular Play Button -->
+              <button
+                class="play-button"
+                data-fancybox="video"
+                data-src="images/video.mp4"
+                data-type="video"
+              >
+                <i class="fa-solid fa-play"></i>
+              </button>
+              <!-- Text for Watch The Recipe -->
+              <span class="watch-text">Watch The Recipe</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- end of about us  -->
+
+    <!-- start of menu  -->
+
+    <section class="menu">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div
+            class="sec-title mt-5 mb-4 d-flex align-items-center justify-content-center capsule-title py-3"
+          >
+            <p>Our Menu</p>
+          </div>
+          <div
+            class="sec-h1 mb-4 d-flex align-items-center justify-content-center"
+          >
+            <h1>Wake Up Early, <span>Eat Fresh & Healthy</span></h1>
+          </div>
+          <div
+            class="sec-img mb-4 d-flex align-items-center justify-content-center"
+          >
+            <img src="images/title-shape.svg" alt="" />
+          </div>
+          <div class="menu-catogry d-flex justify-content-center mb-4">
+            <ul
+              class="filters d-flex justify-content-center align-items-center gap-3 gap-md-5 p-3"
+            >
+              <li class="filter active" data-filter="all">
+                <img src="images/menu-1.png" class="me-2 img-fluid" alt="" />
+                All
+              </li>
+              <li class="filter" data-filter=".breakfast">
+                <img src="images/menu-2.png" class="me-2 img-fluid" alt="" />
+                Breakfast
+              </li>
+              <li class="filter" data-filter=".lunch">
+                <img src="images/menu-3.png" class="me-2 img-fluid" alt="" />
+                Lunch
+              </li>
+              <li class="filter" data-filter=".dinner">
+                <img src="images/menu-4.png" class="me-2 img-fluid" alt="" />
+                Dinner
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Use consistent gap control -->
+        <div class="row mixitup menu-items justify-content-sm-center">
+          <div class="col-lg-4 col-md-6 col-12 menu-item breakfast">
+            <div class="card position-relative rounded-5">
+              <img
+                src="images/dish/1.png"
+                class="position-absolute img-center img-fluid"
+                alt="Dish Image"
+              />
+              <div class="card-body">
+                <h4
+                  class="card-title d-flex align-items-center justify-content-center gap-2 mb-4"
+                >
+                  5 <i class="fa-regular fa-star fa-sm"></i>
+                </h4>
+                <h4 class="card-text text-center fw-bolder mb-4">
+                  Fresh Chicken <br />
+                  Veggies
+                </h4>
+                <p class="text-center mb-5">120 calories</p>
+                <div class="info d-flex justify-content-around">
+                  <div class="type">
+                    <h5>Type</h5>
+                    <p>Non Veg</p>
+                  </div>
+                  <span></span>
+                  <div class="Persons">
+                    <h5>Persons</h5>
+                    <p class="text-end">2</p>
+                  </div>
+                </div>
+                <hr />
+                <div
+                  class="price d-flex justify-content-around align-items-baseline"
+                >
+                  <h4>Rs.499</h4>
+                  <button><i class="fa-solid fa-plus"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-12 menu-item breakfast">
+            <div class="card position-relative rounded-5">
+              <img
+                src="images/dish/2.png"
+                class="position-absolute img-center img-fluid"
+                alt="Dish Image"
+              />
+              <div class="card-body">
+                <h4
+                  class="card-title d-flex align-items-center justify-content-center gap-2 mb-4"
+                >
+                  5 <i class="fa-regular fa-star fa-sm"></i>
+                </h4>
+                <h4 class="card-text text-center fw-bolder mb-4">
+                  Fresh Chicken <br />
+                  Veggies
+                </h4>
+                <p class="text-center mb-5">120 calories</p>
+                <div class="info d-flex justify-content-around">
+                  <div class="type">
+                    <h5>Type</h5>
+                    <p>Non Veg</p>
+                  </div>
+                  <span></span>
+                  <div class="Persons">
+                    <h5>Persons</h5>
+                    <p class="text-end">2</p>
+                  </div>
+                </div>
+                <hr />
+                <div
+                  class="price d-flex justify-content-around align-items-baseline"
+                >
+                  <h4>Rs.499</h4>
+                  <button><i class="fa-solid fa-plus"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-12 menu-item lunch">
+            <div class="card position-relative rounded-5">
+              <img
+                src="images/dish/3.png"
+                class="position-absolute img-center img-fluid"
+                alt="Dish Image"
+              />
+              <div class="card-body">
+                <h4
+                  class="card-title d-flex align-items-center justify-content-center gap-2 mb-4"
+                >
+                  5 <i class="fa-regular fa-star fa-sm"></i>
+                </h4>
+                <h4 class="card-text text-center fw-bolder mb-4">
+                  Fresh Chicken <br />
+                  Veggies
+                </h4>
+                <p class="text-center mb-5">120 calories</p>
+                <div class="info d-flex justify-content-around">
+                  <div class="type">
+                    <h5>Type</h5>
+                    <p>Non Veg</p>
+                  </div>
+                  <span></span>
+                  <div class="Persons">
+                    <h5>Persons</h5>
+                    <p class="text-end">2</p>
+                  </div>
+                </div>
+                <hr />
+                <div
+                  class="price d-flex justify-content-around align-items-baseline"
+                >
+                  <h4>Rs.499</h4>
+                  <button><i class="fa-solid fa-plus"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-12 menu-item lunch">
+            <div class="card position-relative rounded-5">
+              <img
+                src="images/dish/4.png"
+                class="position-absolute img-center img-fluid"
+                alt="Dish Image"
+              />
+              <div class="card-body">
+                <h4
+                  class="card-title d-flex align-items-center justify-content-center gap-2 mb-4"
+                >
+                  5 <i class="fa-regular fa-star fa-sm"></i>
+                </h4>
+                <h4 class="card-text text-center fw-bolder mb-4">
+                  Fresh Chicken <br />
+                  Veggies
+                </h4>
+                <p class="text-center mb-5">120 calories</p>
+                <div class="info d-flex justify-content-around">
+                  <div class="type">
+                    <h5>Type</h5>
+                    <p>Non Veg</p>
+                  </div>
+                  <span></span>
+                  <div class="Persons">
+                    <h5>Persons</h5>
+                    <p class="text-end">2</p>
+                  </div>
+                </div>
+                <hr />
+                <div
+                  class="price d-flex justify-content-around align-items-baseline"
+                >
+                  <h4>Rs.499</h4>
+                  <button><i class="fa-solid fa-plus"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-12 menu-item dinner">
+            <div class="card position-relative rounded-5">
+              <img
+                src="images/dish/5.png"
+                class="position-absolute img-center img-fluid"
+                alt="Dish Image"
+              />
+              <div class="card-body">
+                <h4
+                  class="card-title d-flex align-items-center justify-content-center gap-2 mb-4"
+                >
+                  5 <i class="fa-regular fa-star fa-sm"></i>
+                </h4>
+                <h4 class="card-text text-center fw-bolder mb-4">
+                  Fresh Chicken <br />
+                  Veggies
+                </h4>
+                <p class="text-center mb-5">120 calories</p>
+                <div class="info d-flex justify-content-around">
+                  <div class="type">
+                    <h5>Type</h5>
+                    <p>Non Veg</p>
+                  </div>
+                  <span></span>
+                  <div class="Persons">
+                    <h5>Persons</h5>
+                    <p class="text-end">2</p>
+                  </div>
+                </div>
+                <hr />
+                <div
+                  class="price d-flex justify-content-around align-items-baseline"
+                >
+                  <h4>Rs.499</h4>
+                  <button><i class="fa-solid fa-plus"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-12 menu-item dinner">
+            <div class="card position-relative rounded-5">
+              <img
+                src="images/dish/6.png"
+                class="position-absolute img-center img-fluid"
+                alt="Dish Image"
+              />
+              <div class="card-body">
+                <h4
+                  class="card-title d-flex align-items-center justify-content-center gap-2 mb-4"
+                >
+                  5 <i class="fa-regular fa-star fa-sm"></i>
+                </h4>
+                <h4 class="card-text text-center fw-bolder mb-4">
+                  Fresh Chicken <br />
+                  Veggies
+                </h4>
+                <p class="text-center mb-5">120 calories</p>
+                <div class="info d-flex justify-content-around">
+                  <div class="type">
+                    <h5>Type</h5>
+                    <p>Non Veg</p>
+                  </div>
+                  <span></span>
+                  <div class="Persons">
+                    <h5>Persons</h5>
+                    <p class="text-end">2</p>
+                  </div>
+                </div>
+                <hr />
+                <div
+                  class="price d-flex justify-content-around align-items-baseline"
+                >
+                  <h4>Rs.499</h4>
+                  <button><i class="fa-solid fa-plus"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of menu  -->
+
+    <!-- start of two-row-sec  -->
+    <section class="two-row-sec">
+      <div class="container">
+        <div class="row align-items-center mb-5">
+          <div class="col-lg-5">
+            <img src="images/pizza.png" class="img-fluid mb-5" alt="" />
+          </div>
+          <div class="col-lg-7 dish-info">
+            <h1 class="fw-bolder mb-4">Chicken Pepperoni</h1>
+            <p>
+              This is Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Amet dolores eligendi earum eveniet soluta officiis asperiores
+              repellat, eum praesentium nihil totam. Non ipsa expedita repellat
+              atque mollitia praesentium assumenda quo distinctio excepturi
+              nobis tenetur, cum ab vitae fugiat hic aspernatur? Quos
+              laboriosam, repudiandae exercitationem atque a excepturi vel.
+              Voluptas, ipsa.
+            </p>
+            <p>
+              This is Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              At fugit laborum voluptas magnam sed ad illum? Minus officiis quod
+              deserunt.
+            </p>
+          </div>
+        </div>
+        <div class="row align-items-center">
+          <div class="col-lg-7 dish-info order-2 order-lg-1">
+            <h1 class="fw-bolder mb-4">Chicken Pepperoni</h1>
+            <p>
+              This is Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Amet dolores eligendi earum eveniet soluta officiis asperiores
+              repellat, eum praesentium nihil totam. Non ipsa expedita repellat
+              atque mollitia praesentium assumenda quo distinctio excepturi
+              nobis tenetur, cum ab vitae fugiat hic aspernatur? Quos
+              laboriosam, repudiandae exercitationem atque a excepturi vel.
+              Voluptas, ipsa.
+            </p>
+            <p>
+              This is Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              At fugit laborum voluptas magnam sed ad illum? Minus officiis quod
+              deserunt.
+            </p>
+          </div>
+          <div class="col-lg-5 order-1 order-lg-2">
+            <img src="images/sushi.png" class="img-fluid mb-5" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of two-row-sec  -->
+
+    <!-- start of Book  -->
+    <section class="book">
+      <div class="shape-img">
+        <img src="images/table-leaves-shape.png" class="shape1" alt="" />
+        <img src="images/table-leaves-shape.png" class="shape2" alt="" />
+      </div>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div
+            class="sec-title mt-5 mb-4 d-flex align-items-center justify-content-center capsule-title py-3"
+          >
+            <p>Book Table</p>
+          </div>
+          <div
+            class="sec-h1 mb-4 d-flex align-items-center justify-content-center"
+          >
+            <h1>Opening Table</h1>
+          </div>
+          <div
+            class="sec-img mb-4 d-flex align-items-center justify-content-center"
+          >
+            <img src="images/title-shape.svg" alt="" />
+          </div>
+        </div>
+        <div
+          class="row mb-5 align-items-center justify-content-center row-gap-5"
+        >
+          <div class="col-lg-4 col-12 mon">
+            <div class="d-flex flex-column align-items-center gap-2">
+              <h3 class="fw-bolder text-capitalize">Monday to Thrusday</h3>
+              <p class="fw-semibold text-capitalize">9:00 am - 22:00 pm</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-12 tel">
+            <div class="d-flex flex-column align-items-center gap-3">
+              <button class="play-button">
+                <i class="fa fa-phone" aria-hidden="true"></i>
+              </button>
+              <p class="fw-semibold text-capitalize fs-4">+91 - 8866998866</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-12 fri">
+            <div class="d-flex flex-column align-items-center gap-2">
+              <h3 class="fw-bolder text-capitalize">Friday to Sunday</h3>
+              <p class="fw-semibold text-capitalize">11:00 am to 20:00 pm</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Swiper HTML -->
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <!-- Slides with beautiful design -->
+          <div class="swiper-slide">
+            <a
+              href="images/bt1.jpg"
+              data-fancybox="gallery1"
+              data-caption="Image 1"
+            >
+              <img src="images/bt1.jpg" alt="Image 1" />
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a
+              href="images/bt2.jpg"
+              data-fancybox="gallery1"
+              data-caption="Image 2"
+            >
+              <img src="images/bt2.jpg" alt="Image 2" />
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a
+              href="images/bt3.jpg"
+              data-fancybox="gallery1"
+              data-caption="Image 3"
+            >
+              <img src="images/bt3.jpg" alt="Image 3" />
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a
+              href="images/bt4.jpg"
+              data-fancybox="gallery1"
+              data-caption="Image 4"
+            >
+              <img src="images/bt4.jpg" alt="Image 4" />
+            </a>
+          </div>
+        </div>
+
+        <!-- Pagination (dots) -->
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+    <!-- end of Book  -->
+
+    <section class="team">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div
+            class="sec-title mt-5 mb-4 d-flex align-items-center justify-content-center capsule-title py-3"
+          >
+            <p>Our Team</p>
+          </div>
+          <div
+            class="sec-h1 mb-4 d-flex align-items-center justify-content-center"
+          >
+            <h1>Meet our Chefs</h1>
+          </div>
+          <div
+            class="sec-img mb-4 d-flex align-items-center justify-content-center"
+          >
+            <img src="images/title-shape.svg" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <!-- Swiper HTML -->
+      <!-- Swiper Container -->
+      <div class="chef-swiper-container">
+        <div class="swiper-wrapper">
+          <!-- Slide 1 -->
+          <div class="swiper-slide">
+            <div class="chef-box text-center rounded-4 p-3">
+              <img
+                src="images/chef/c1.jpg"
+                alt="Chef 1"
+                class="chef-image rounded-4 mb-4"
+              />
+              <div class="chef-info">
+                <div class="chef-name mb-4">Nilay Hirpara</div>
+                <div class="chef-social d-flex gap-4 justify-content-center">
+                  <a href="#" class="social-icon"
+                    ><i class="fa fa-facebook"></i
+                  ></a>
+                  <a href="#" class="social-icon"
+                    ><i class="fa fa-instagram"></i
+                  ></a>
+                  <a href="#" class="social-icon"
+                    ><i class="fa fa-whatsapp"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="swiper-slide">
+            <div class="chef-box text-center rounded-4 p-3">
+              <img
+                src="images/chef/c2.jpg"
+                alt="Chef 2"
+                class="chef-image rounded-4 mb-4"
+              />
+              <div class="chef-info">
+                <div class="chef-name mb-4">Ravi Kumawat</div>
+                <div class="chef-social d-flex gap-4 justify-content-center">
+                  <a href="#" class="social-icon"
+                    ><i class="fa fa-facebook"></i
+                  ></a>
+                  <a href="#" class="social-icon"
+                    ><i class="fa fa-instagram"></i
+                  ></a>
+                  <a href="#" class="social-icon"
+                    ><i class="fa fa-whatsapp"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 3 -->
+          <div class="swiper-slide">
+            <div class="chef-box text-center rounded-4 p-3">
+              <img
+                src="images/chef/c3.jpg"
+                alt="Chef 3"
+                class="chef-image rounded-4 mb-4"
+              />
+              <div class="chef-info">
+                <div class="chef-name mb-4">Navnit Kumar</div>
+                <div class="chef-social d-flex gap-4 justify-content-center">
+                  <a href="#" class="social-icon"
+                    ><i class="fa fa-facebook"></i
+                  ></a>
+                  <a href="#" class="social-icon"
+                    ><i class="fa fa-instagram"></i
+                  ></a>
+                  <a href="#" class="social-icon"
+                    ><i class="fa fa-whatsapp"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 4 -->
+          <div class="swiper-slide">
+            <div class="chef-box text-center rounded-4 p-3">
+              <img
+                src="images/chef/c4.jpg"
+                alt="Chef 4"
+                class="chef-image rounded-4 mb-4"
+              />
+              <div class="chef-info">
+                <div class="chef-name mb-4">Pranav Badgal</div>
+                <div class="chef-social d-flex gap-4 justify-content-center">
+                  <a href="#" class="social-icon"
+                    ><i class="fa fa-facebook"></i
+                  ></a>
+                  <a href="#" class="social-icon"
+                    ><i class="fa fa-instagram"></i
+                  ></a>
+                  <a href="#" class="social-icon"
+                    ><i class="fa fa-whatsapp"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="chef-box text-center rounded-4 p-3">
+              <img
+                src="images/chef/c5.jpg"
+                alt="Chef 4"
+                class="chef-image rounded-4 mb-4"
+              />
+              <div class="chef-info">
+                <div class="chef-name mb-4">Priyotosh Dey</div>
+                <div class="chef-social d-flex gap-4 justify-content-center">
+                  <a href="#" class="social-icon"
+                    ><i class="fa fa-facebook"></i
+                  ></a>
+                  <a href="#" class="social-icon"
+                    ><i class="fa fa-instagram"></i
+                  ></a>
+                  <a href="#" class="social-icon"
+                    ><i class="fa fa-whatsapp"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Swiper Pagination -->
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+    <section class="customers">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div
+            class="sec-title mt-5 mb-4 d-flex align-items-center justify-content-center capsule-title py-3"
+          >
+            <p>What they say</p>
+          </div>
+          <div
+            class="sec-h1 mb-4 d-flex align-items-center justify-content-center"
+          >
+            <h1>
+              What our customers <br />
+              say about us
+            </h1>
+          </div>
+          <div
+            class="sec-img mb-4 d-flex align-items-center justify-content-center"
+          >
+            <img src="images/title-shape.svg" alt="" />
+          </div>
+        </div>
+        <div class="row cus">
+          <div class="col-lg-5">
+            <img
+              src="images/testimonial-img.png"
+              class="img-fluid"
+              alt=""
+              style="margin-bottom: 90px"
+            />
+          </div>
+          <div class="col-lg-7">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="customer-box">
+                  <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <img src="images/testimonials/t1.jpg" alt="" />
+                  <div class="customer-info">
+                    <h3>Nilay Hirpara</h3>
+                    <p>
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Itaque, quisquam.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="customer-box">
+                  <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <img src="images/testimonials/t2.jpg" alt="" />
+                  <div class="customer-info">
+                    <h3>Ravi Kumawat</h3>
+                    <p>
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Itaque, quisquam.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="customer-box">
+                  <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <img src="images/testimonials/t3.jpg" alt="" />
+                  <div class="customer-info">
+                    <h3>Navnit Kumar</h3>
+                    <p>
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Itaque, quisquam.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="customer-box">
+                  <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <img src="images/testimonials/t4.jpg" alt="" />
+                  <div class="customer-info">
+                    <h3>Somyadeep Bhowmik</h3>
+                    <p>
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Itaque, quisquam.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="faqs">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div
+            class="sec-title mt-5 mb-4 d-flex align-items-center justify-content-center capsule-title py-2"
+          >
+            <p class="text-capitalize">faqs</p>
+          </div>
+          <div
+            class="sec-h1 mb-4 d-flex align-items-center justify-content-center"
+          >
+            <h1>
+              Frequently <br />
+              asked questions
+            </h1>
+          </div>
+          <div
+            class="sec-img mb-4 d-flex align-items-center justify-content-center"
+          >
+            <img src="images/title-shape.svg" alt="" />
+          </div>
+        </div>
+        <div class="row row-gap-4 my-5">
+          <div class="col-lg-4">
+            <div class="faq-box rounded-5">
+              <h4 class="mb-3">What are the login hours?</h4>
+              <div class="line"></div>
+              <p>
+                It is Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Temporibus ipsum vitae fugit laboriosam dolor distinctio.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="faq-box rounded-5">
+              <h4 class="mb-3">How long it will take food to arrive?</h4>
+              <div class="line"></div>
+              <p>
+                It is Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Temporibus ipsum vitae fugit laboriosam dolor distinctio.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="faq-box rounded-5">
+              <h4 class="mb-3">What is cost of food delivery?</h4>
+              <div class="line"></div>
+              <p>
+                It is Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Temporibus ipsum vitae fugit laboriosam dolor distinctio.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="faq-box rounded-5">
+              <h4 class="mb-3">What do i get my refund?</h4>
+              <div class="line"></div>
+              <p>
+                It is Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Temporibus ipsum vitae fugit laboriosam dolor distinctio. Lorem
+                ipsum dolor sit amet.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="faq-box rounded-5">
+              <h4 class="mb-3">
+                Does your restaurant has both veg and non veg?
+              </h4>
+              <div class="line"></div>
+              <p>
+                It is Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Temporibus ipsum vitae fugit laboriosam dolor distinctio.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="faq-box rounded-5">
+              <h4 class="mb-3">Who is eligible for pro membership?</h4>
+              <div class="line"></div>
+              <p>
+                It is Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Temporibus ipsum vitae fugit laboriosam dolor distinctio.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="blog">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div
+            class="sec-title mt-5 mb-4 d-flex align-items-center justify-content-center capsule-title py-3"
+          >
+            <p class="text-capitalize">Our blog</p>
+          </div>
+          <div
+            class="sec-h1 mb-4 d-flex align-items-center justify-content-center"
+          >
+            <h1>Latest Publications</h1>
+          </div>
+          <div
+            class="sec-img mb-4 d-flex align-items-center justify-content-center"
+          >
+            <img src="images/title-shape.svg" alt="" />
+          </div>
+        </div>
+        <div class="row my-5 row-gap-5">
+          <div class="col-lg-4 col-md-6 col-12">
+            <div class="card rounded-5">
+              <div class="card-body">
+                <div class="blog-img mb-4 d-flex justify-content-center">
+                  <img
+                    src="images/blog/blog1.jpg"
+                    class="img-fluid rounded-5"
+                    alt=""
+                  />
+                </div>
+                <p class="date bg-secondary-subtle text-black p-2 rounded-2">
+                  September.15.2021
+                </p>
+
+                <h6 class="card-text fw-bolder mb-4">
+                  DIY energy drink you can make at home.
+                </h6>
+                <p class="mb-4">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Pariatur ipsa explicabo atque reprehenderit beatae!
+                  Accusantium soluta consequuntur blanditiis amet ad.
+                </p>
+                <a
+                  href=""
+                  class="btn btn-outline-secondary py-3 px-4 rounded-5 text-capitalize"
+                  >read more</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-12">
+            <div class="card rounded-5">
+              <div class="card-body">
+                <div class="blog-img mb-4 d-flex justify-content-center">
+                  <img
+                    src="images/blog/blog2.jpg"
+                    class="img-fluid rounded-5"
+                    alt=""
+                  />
+                </div>
+                <p class="date bg-secondary-subtle text-black p-2 rounded-2">
+                  September.15.2021
+                </p>
+                <h6 class="card-text fw-bolder mb-4">
+                  Fresh Veggie and rice combo for dinner.
+                </h6>
+                <p class="mb-4">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Pariatur ipsa explicabo atque reprehenderit beatae!
+                  Accusantium soluta consequuntur blanditiis amet ad.
+                </p>
+                <a
+                  href=""
+                  class="btn btn-outline-secondary py-3 px-4 rounded-5 text-capitalize"
+                  >read more</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-12">
+            <div class="card rounded-5">
+              <div class="card-body">
+                <div class="blog-img mb-4 d-flex justify-content-center">
+                  <img
+                    src="images/blog/blog3.jpg"
+                    class="img-fluid rounded-5"
+                    alt=""
+                  />
+                </div>
+                <p class="date bg-secondary-subtle text-black p-2 rounded-2">
+                  September.15.2021
+                </p>
+                <h6 class="card-text fw-bolder mb-4">
+                  Chicken burger with double nuggets
+                </h6>
+                <p class="mb-4">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Pariatur ipsa explicabo atque reprehenderit beatae!
+                  Accusantium soluta consequuntur blanditiis amet ad.
+                </p>
+                <a
+                  href=""
+                  class="btn btn-outline-secondary py-3 px-4 rounded-5 text-capitalize"
+                  >read more</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center" style="margin-top: 90px">
+          <div
+            class="sub text-white d-flex justify-content-center flex-column align-items-center"
+          >
+            <h2 class="mb-3 text-capitalize fw-bolder text-center">
+              Subscribe our newsletter
+            </h2>
+            <p class="text-center fw-normal">
+              This is Lorem ipsum dolor sit amet consectetur adipisicing elit ad
+              veritatis.
+            </p>
+            <form class="w-75 mt-3 position-relative">
+              <div class="input-group">
+                <input
+                  type="email"
+                  class="form-control p-3 rounded-5 pe-5"
+                  placeholder="Enter your email"
+                  aria-label="Email"
+                  required
+                />
+                <button
+                  class="btn btn-primary rounded-5 position-absolute end-0 top-50 translate-middle-y me-3"
+                  type="submit"
+                >
+                  Submit
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 mb-5">
+            <img src="logo.png" class="img-fluid mb-4" alt="" />
+            <p class="mb-4">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Mollitia, tenetur.
+            </p>
+            <div class="social d-flex gap-3">
+              <a href=""><i class="fa fa-facebook"></i></a>
+              <a href=""><i class="fa fa-instagram"></i></a>
+              <a href=""><i class="fa fa-github"></i></a>
+              <a href=""><i class="fa fa-youtube"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-8">
+            <div class="footer-flex-box d-lg-flex gap-5 justify-content-around">
+              <div class="footer-table-info mb-4">
+                <h3 class="h3-title">open hours</h3>
+                <div class="footer-dates">
+                  <div class="fot-date d-flex align-items-center gap-2 mb-2">
+                    <i class="fa fa-clock"></i>
+                    <p class="m-0">Mon-Thurs : 9am - 22pm</p>
+                  </div>
+                  <div class="fot-date d-flex align-items-center gap-2">
+                    <i class="fa fa-clock"></i>
+                    <p class="m-0">Fri-Sun : 11am - 22pm</p>
+                  </div>
+                </div>
+              </div>
+              <div class="footer-links mb-4">
+                <h3 class="h3-title">links</h3>
+                <div class="footer-anchor d-flex flex-column gap-2">
+                  <a href="" class="active-link">home</a>
+                  <a href="">about</a>
+                  <a href="">menu</a>
+                  <a href="">gallery</a>
+                  <a href="">blog</a>
+                  <a href="">contact</a>
+                </div>
+              </div>
+              <div class="footer-links mb-4">
+                <h3 class="h3-title">Company</h3>
+                <div class="footer-anchor d-flex flex-column gap-2">
+                  <a href="">Terms & Conditions</a>
+                  <a href="">Privacy Policy</a>
+                  <a href="">Cookie Policy</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="line"></div>
+      <p class="text-center mb-5">
+        Copyright © 2021 <span class="active-link">TechieCoder.</span> All
+        Rights Reserved.
+      </p>
+    </footer>
+    <div class="to-up">
+      <a href="" class="up"><i class="fa fa-arrow-up"></i></a>
+    </div>
+    <!-- jquery  -->
+    <script src="js/jquery-3.7.1.js"></script>
+    <!-- bootstrap -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/popper.min.js"></script>
+
+    <!-- fontawesome  -->
+    <script
+      src="https://kit.fontawesome.com/c7be939029.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- swiper slider  -->
+    <script src="js/swiper-bundle.min.js"></script>
+
+    <!-- mixitup -- filter  -->
+    <script src="https://cdn.jsdelivr.net/npm/mixitup@3.3.1/dist/mixitup.min.js"></script>
+
+    <!-- fancy box  -->
+    <script src="js/jquery.fancybox.min.js"></script>
+
+    <!-- parallax  -->
+    <script src="js/parallax.min.js"></script>
+
+    <!-- custom js  -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
